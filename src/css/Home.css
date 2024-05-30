@@ -1,0 +1,109 @@
+/* Estilos para la página de inicio */
+
+.home-container {
+  text-align: center;
+  color: #ffffff;
+  padding: 20px;
+}
+
+.home-header {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+}
+
+.home-logo {
+  width: 300px;
+  margin-bottom: 5px;
+}
+
+.home-image {
+  width: 100%;
+  max-width: 600px;
+  margin: 20px 0;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+}
+
+.home-services {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+}
+
+.home-services h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.service {
+  margin-bottom: 20px;
+}
+
+.service h3 {
+  font-size: 1.8em;
+  color: #00cc99;
+}
+
+.service p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+.home-discover {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+}
+
+.home-discover h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.home-discover p {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.home-discover ul {
+  list-style: none;
+  padding: 0;
+}
+
+.home-discover ul li {
+  font-size: 1.2em;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  color: #00cc99;
+}
+
+.home-footer {
+  margin-top: 40px;
+}
+
+.home-footer a {
+  display: inline-block;
+  margin: 10px 20px;
+  padding: 15px 25px;
+  background-color: #00ffcc;
+  color: #0d0d0d;
+  font-size: 1.2em;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.home-footer a:hover {
+  background-color: #00cc99;
+}

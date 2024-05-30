@@ -1,0 +1,44 @@
+/* Estilos para la página de ver sugerencias */
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+    text-align: center;
+  }
+  
+  .suggestion-list {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+    max-width: 800px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .suggestion-item {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 204, 0.5);
+    transition: transform 0.3s;
+  }
+  
+  .suggestion-item:hover {
+    transform: scale(1.05);
+  }
+  
+  .suggestion-item p {
+    margin: 5px 0;
+    font-size: 1.2em;
+    line-height: 1.4;
+  }
+  
+  .suggestion-item p strong {
+    color: #00cc99;
+  }
+  

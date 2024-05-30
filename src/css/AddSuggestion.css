@@ -1,0 +1,44 @@
+/* Estilos para la página de agregar sugerencias */
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #00ffcc;
+    text-shadow: 0 0 10px #00ffcc;
+  }
+  
+  form {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  input, button {
+    width: calc(100% - 20px);
+    padding: 15px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+  }
+  
+  input {
+    background-color: #262626;
+    color: #ffffff;
+  }
+  
+  button {
+    background-color: #00ffcc;
+    color: #0d0d0d;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  button:hover {
+    background-color: #00cc99;
+  }
+  

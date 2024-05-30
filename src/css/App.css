@@ -1,0 +1,51 @@
+/* Estilos para la navegación y el contenedor principal */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Orbitron', sans-serif;
+    background-color: #0d0d0d;
+    color: #ffffff;
+    background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6f9b913b-c48a-43ab-a9aa-26d4355d1d80/dgf3qyl-31b12de4-3426-4927-83b0-a5567e604c09.png/v1/fill/w_1280,h_549,q_80,strp/space_art_131___4k_ultrawide_wallpaper_background_by_ixul_dgf3qyl-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9NTQ5IiwicGF0aCI6IlwvZlwvNmY5YjkxM2ItYzQ4YS00M2FiLWE5YWEtMjZkNDM1NWQxZDgwXC9kZ2YzcXlsLTMxYjEyZGU0LTM0MjYtNDkyNy04M2IwLWE1NTY3ZTYwNGMwOS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.csH84HjlUh4sLgAaxDn58_-rbTeKRQKn6nA_YONS1kw');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  nav {
+    margin-bottom: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 15px;
+    box-shadow: 0 0 15px rgba(0, 255, 204, 0.5);
+    border-radius: 10px;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin: 0 15px;
+  }
+  
+  nav a {
+    color: #00ffcc;
+    text-decoration: none;
+    font-size: 1.5em;
+    transition: color 0.3s;
+    text-shadow: 0 0 5px #000000;  /* Agregar un efecto de sombra para mejorar la visibilidad */
+  }
+  
+  nav a:hover {
+    color: #00cc99;
+  }
+  
+  .container {
+    padding: 50px;
+    text-align: center;
+  }
+  
