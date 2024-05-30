@@ -16,7 +16,11 @@ const ViewSuggestions: React.FC = () => {
         const data = await response.json();
         setSuggestions(data);
       } catch (error) {
-        setError(error.message);
+        if (error instanceof Error) {
+          setError(error.message);
+        } else {
+          setError('An unknown error occurred');
+        }
       }
     };
     fetchSuggestions();
