@@ -5,7 +5,7 @@ import '../css/AddSuggestion.css';
 const AddSuggestion: React.FC = () => {
   const handleSubmit = async (form: any) => {
     try {
-      const response = await fetch('https://estelar-odyssey-backend.vercel.app/api/suggestions', {
+      const response = await fetch('http://localhost:5000/api/suggestions', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
